@@ -1,0 +1,19 @@
+qq: 1379943449
+server:
+  port: 8005
+
+spring:
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      database: 0
+      password:
+  redis:
+    database:
+      db0: 0
+      db1: 1
+      db2: 2
+      db3: 3
+      db4: 4
+      db5: 5

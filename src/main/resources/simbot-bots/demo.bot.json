@@ -1,0 +1,37 @@
+{
+  "component": "simbot.mirai",
+  "code": qq号,
+  "authorization": {
+    "type": "text",
+    "text": "密码"
+  },
+  "config": {
+    "workingDir": ".",
+    "heartbeatPeriodMillis": 60000,
+    "statHeartbeatPeriodMillis": 300000,
+    "heartbeatTimeoutMillis": 5000,
+    "heartbeatStrategy": "STAT_HB",
+    "reconnectionRetryTimes": 2147483647,
+    "autoReconnectOnForceOffline": false,
+    "protocol": "ANDROID_PAD",
+    "highwayUploadCoroutineCount": 16,
+    "deviceInfo": {
+      "type": "auto"
+    },
+    "noNetworkLog": false,
+    "noBotLog": false,
+    "isShowingVerboseEventLog": false,
+    "cacheDir": "cache/123",
+    "contactListCache": {
+      "saveIntervalMillis": 60000,
+      "friendListCacheEnabled": false,
+      "groupMemberListCacheEnabled": false
+    },
+    "loginCacheEnabled": true,
+    "convertLineSeparator": true,
+    "recallMessageCacheStrategyConfig": {
+      "type": "invalid"
+    },
+    "disableAccountSecretes": false
+  }
+}
